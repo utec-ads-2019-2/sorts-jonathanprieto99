@@ -7,6 +7,8 @@ class QuickSort : public Sort {
     public:
         QuickSort(int *elements, size_t size) : Sort(elements, size) {}
 
+
+
     void swap(int* a, int* b)
     {
             int t = *a;
@@ -14,7 +16,7 @@ class QuickSort : public Sort {
             *b = t;
     }
 
-        int place (int input[], int low, int high)
+    int ordenar (int input[], int low, int high)
     {
             int pivot = input[high];
             int i = (low - 1);
@@ -31,16 +33,21 @@ class QuickSort : public Sort {
             return (i + 1);
     }
 
-    void execute(int input[], int low, int high){
+    void execute2(int input[], int low, int high){
             if (low < high)
             {
-                    int pi = place(input, low, high);
-                    //QuickSort(input, low, pi - 1);
-                    //QuickSort(input, pi + 1, high);
+                    int pi = ordenar(input, low, high);
+                    execute2(input, low, pi - 1);
+                    execute2(input, pi + 1, high);
             }
     }
 
-        inline string name() { return "QuickSort"; }
+    void execute(){
+        execute2(elements,0,size-1);
+    }
+
+
+    inline string name() { return "QuickSort"; }
 };
 
 #endif
