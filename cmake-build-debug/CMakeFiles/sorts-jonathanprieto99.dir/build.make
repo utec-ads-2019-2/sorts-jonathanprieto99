@@ -70,17 +70,47 @@ CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/main.cpp -o CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.s
 
+CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o: CMakeFiles/sorts-jonathanprieto99.dir/flags.make
+CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o: ../mocker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o -c /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.cpp
+
+CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.cpp > CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.i
+
+CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.cpp -o CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.s
+
+CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o: CMakeFiles/sorts-jonathanprieto99.dir/flags.make
+CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o: ../tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o -c /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.cpp
+
+CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.cpp > CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.i
+
+CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.cpp -o CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.s
+
 # Object files for target sorts-jonathanprieto99
 sorts__jonathanprieto99_OBJECTS = \
-"CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.o"
+"CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.o" \
+"CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o" \
+"CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o"
 
 # External object files for target sorts-jonathanprieto99
 sorts__jonathanprieto99_EXTERNAL_OBJECTS =
 
 sorts-jonathanprieto99: CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.o
+sorts-jonathanprieto99: CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o
+sorts-jonathanprieto99: CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o
 sorts-jonathanprieto99: CMakeFiles/sorts-jonathanprieto99.dir/build.make
 sorts-jonathanprieto99: CMakeFiles/sorts-jonathanprieto99.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sorts-jonathanprieto99"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sorts-jonathanprieto99"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorts-jonathanprieto99.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/main.cpp" "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles/sorts-jonathanprieto99.dir/main.cpp.o"
+  "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.cpp" "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles/sorts-jonathanprieto99.dir/mocker.cpp.o"
+  "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.cpp" "/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/cmake-build-debug/CMakeFiles/sorts-jonathanprieto99.dir/tester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

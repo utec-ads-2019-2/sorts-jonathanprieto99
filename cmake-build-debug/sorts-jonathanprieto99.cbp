@@ -80,7 +80,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/bubble.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/counting.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/insert.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
 		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/main.cpp">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/merge.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.cpp">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/quick.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/radix.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/select.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/shell.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/sort.h">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.cpp">
+			<Option target="sorts-jonathanprieto99"/>
+		</Unit>
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.h">
 			<Option target="sorts-jonathanprieto99"/>
 		</Unit>
 		<Unit filename="/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/CMakeLists.txt">
