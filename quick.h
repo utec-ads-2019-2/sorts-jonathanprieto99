@@ -7,8 +7,6 @@ class QuickSort : public Sort {
     public:
         QuickSort(int *elements, size_t size) : Sort(elements, size) {}
 
-
-
     void swap(int* a, int* b)
     {
             int t = *a;
@@ -18,12 +16,13 @@ class QuickSort : public Sort {
 
     int ordenar (int input[], int low, int high)
     {
-            int pivot = input[high];
+            int pivote = input[high];
+
             int i = (low - 1);
 
             for (int j = low; j <= high - 1; j++)
             {
-                    if (input[j] < pivot)
+                    if (input[j] < pivote)
                     {
                             i++;
                             swap(&input[i], &input[j]);
