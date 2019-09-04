@@ -24,37 +24,9 @@ vector
 sort.h
 /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/sort.h
 
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/main.cpp
-iostream
--
-assert.h
--
-string
--
-mocker.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.h
-tester.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/tester.h
-bubble.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/bubble.h
-select.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/select.h
-insert.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/insert.h
-shell.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/shell.h
-quick.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/quick.h
-merge.h
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/merge.h
-
 /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/merge.h
 sort.h
 /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/sort.h
-
-/Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/mocker.h
-random
--
 
 /Users/jonathanprieto/Documents/GitHub/sorts-jonathanprieto99/quick.h
 sort.h
